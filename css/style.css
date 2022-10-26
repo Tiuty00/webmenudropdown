@@ -1,7 +1,3 @@
-/* - Almost White: hsl(0, 0%, 98%)rgb
-- Medium Gray: hsl(0, 0%, 41%)
-- Almost Black: hsl(0, 0%, 8%) */
-
 
 body {
       font-family: 'Epilogue', sans-serif;
@@ -361,7 +357,7 @@ main {
 
       .btn-menu {
             display: inline;
-            z-index: 3;
+            z-index: 2;
       }
 
       .left-nav {
@@ -412,7 +408,6 @@ main {
             left: 0;
             background-color: black;
             opacity: 0.7;
-            z-index: 1;
       }
 
       .user-btn {
@@ -457,12 +452,14 @@ main {
             height: auto;
             margin-top: 0;
             padding:5px 0 2px 20px;
+            z-index: unset;
       }
 
       .company-box {
             height: auto;
             margin-top: 0;
             padding: 5px 0 2px 20px;
+            z-index: unset;
       }
 
       /* END Mobile NavBar */
@@ -474,7 +471,18 @@ main {
       .main-paragraph {
             font-size: 1rem;
       }
-
+      
+      .main-btn {
+            z-index: 1;
+      }
+      
+      .logo {
+            z-index: 1;
+      }
+      
+      .attribution {
+             z-index: 1;
+      }
 }
 
 @media (max-width: 675px) {
