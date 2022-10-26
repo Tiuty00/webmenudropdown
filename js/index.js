@@ -21,9 +21,12 @@ dropFeatures.addEventListener ("click", () => {
 
       if (arrowFeatures.src.match("images/icon-arrow-down.svg")) {
             arrowFeatures.src = "images/icon-arrow-up.svg";
+            
+            //    If the other menu is open, when i click on this the other one closing.
             document.querySelector(".company-box").classList.add("hidden");
             document.querySelector(".company-box").classList.remove("visible");
             arrowCompany.src = "images/icon-arrow-down.svg";
+            
       } else {
             arrowFeatures.src = "images/icon-arrow-down.svg";
       }
@@ -38,6 +41,8 @@ dropCompany.addEventListener ("click", () => {
 
       if (arrowCompany.src.match("images/icon-arrow-down.svg")) {
             arrowCompany.src = "images/icon-arrow-up.svg";
+            
+             //    If the other menu is open, when i click on this the other one closing.
             document.querySelector(".features-box").classList.add("hidden");
             document.querySelector(".features-box").classList.remove("visible");
             arrowFeatures.src = "images/icon-arrow-down.svg";
