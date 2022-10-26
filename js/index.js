@@ -21,6 +21,7 @@ dropFeatures.addEventListener ("click", () => {
 
       if (arrowFeatures.src.match("images/icon-arrow-down.svg")) {
             arrowFeatures.src = "images/icon-arrow-up.svg";
+            document.querySelector(".company-box").classList.toggle("hidden");
       } else {
             arrowFeatures.src = "images/icon-arrow-down.svg";
       }
@@ -35,6 +36,7 @@ dropCompany.addEventListener ("click", () => {
 
       if (arrowCompany.src.match("images/icon-arrow-down.svg")) {
             arrowCompany.src = "images/icon-arrow-up.svg";
+            document.querySelector(".features-box").classList.toggle("hidden");
       } else {
             arrowCompany.src = "images/icon-arrow-down.svg";
       }
