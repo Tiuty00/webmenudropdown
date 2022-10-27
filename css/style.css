@@ -408,16 +408,6 @@ main {
             flex-direction: column;
       }
 
-      .features-box {
-            box-shadow: none;
-            background-color: hsl(0, 0%, 98%);
-      }
-
-      .company-box {
-            box-shadow: none;
-            background-color: hsl(0, 0%, 98%);
-      }
-
       .nav-btn {
             margin-bottom: 6%;
       }
@@ -448,6 +438,9 @@ main {
             margin-top: 0;
             padding:5px 0 2px 20px;
             z-index: unset;
+            box-shadow: none;
+            background-color: hsl(0, 0%, 98%);
+            left: 0;
       }
 
       .company-box {
@@ -455,6 +448,8 @@ main {
             margin-top: 0;
             padding: 5px 0 2px 20px;
             z-index: unset;
+            box-shadow: none;
+            background-color: hsl(0, 0%, 98%);
       }
 
       /* END Mobile NavBar */
