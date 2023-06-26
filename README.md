@@ -34,14 +34,12 @@ mobile View <img src=https://github.com/Tiuty00/webmenudropdown/blob/main/mobile
 - Solution URL: [Solution URL](https://github.com/Tiuty00/webmenudropdown)
 - Live Site URL: [Live web page](https://tiuty00.github.io/webmenudropdown)
 
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ## Author
